@@ -1,0 +1,176 @@
+* {
+    color: white;
+    box-sizing: border-box
+    padding; 0px;
+    margin: 0px;
+    font-family: 'Acme', sans-serif;
+    background-color: black ;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1s ease;
+}
+
+r-cell{
+    margin-bottom: 130px;
+}
+.container {
+    margin: auto 10%;
+}
+
+/*NAVIGATION*/
+
+.nav {
+    margin-bottom: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 { 
+    cursor: pointer;
+    color: #ff000d;
+    font-size: 45px;   
+}
+
+.nav li {
+    margin-left: 100px;
+    display: inline;
+    list-style-type: none;
+}
+
+.nav a {
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #ff000d;
+    border-bottom: 2px solid #ff000d;
+} 
+
+.cbutton {
+    margin-left: 100px;
+    width: 110px;   
+    padding: 5px;
+    border:2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cbutton:hover{
+    color:#ff000d;
+}   
+
+/*TE PERBASHKETA*/
+
+.section1,.section2,.section3 {
+    margin: auto;
+}
+
+.img1 img {
+    margin-left: 80px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.img2 img{
+    margin: 130px 0 0 0px;
+}
+
+.img3 img { 
+    width: 700px;
+    margin: 100px 0 0 10px;
+}
+
+.title1,.title2 ,.title3 {
+    letter-spacing: 4px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 34px;
+}
+.paragraph{
+    letter-spacing: 1px;
+    width: 380px;
+    font-size: 23px;
+}
+
+
+.button1,.button2,.button3 {
+    width: 110px; 
+    margin-top: 25px;
+    padding:8px;
+    border:2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ff000d;
+    transition: ease-out 0.3s;
+} 
+.button2 {
+    margin-left: 120px;
+}
+
+.button1:hover,.button2:hover,.button3:hover {
+        box-shadow: inset 110px 0 0 0 #ff000d;
+}
+
+
+/*FOOTER*/
+
+.footlist1,.footlist2,.footlist3 {
+    font-weight: lighter;
+    padding-inline-start: -40px;
+ }
+
+ .footlist1 li,.footlist2 li,.footlist3 li{
+    list-style-type: none;
+}
+.footlist1 a,.footlist2 a,.footlist3 a {
+    text-decoration: none;  
+}
+
+ul li a:hover {
+    color: grey;
+}
+
+.footlist3 h5  {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff000d;
+}
+
+.snetworks a {
+    font-size: 40px;
+    padding-right: 25px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.snetworks a:hover {
+    color:red;
+}
+
+.gg-arrow-down {
+    margin-left: 100px;
+}
+  
+  .follow {
+      font-size: 30px;
+  }
+
+ @keyframes drop {
+     0% {
+         opacity: 0;
+         transform:  translateY(-88px);
+ }
+ 100% {
+     opacity: 1;
+     transform: translateY(0px);
+ }
+}
+
+
+
